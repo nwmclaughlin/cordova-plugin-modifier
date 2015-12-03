@@ -1,13 +1,11 @@
-# Cordova Hello World Plugin
+# Cordova Modifier Plugin
 
-Simple plugin that returns your string prefixed with hello.
-
-Greeting a user with "Hello, world" is something that could be done in JavaScript. This plugin provides a simple example demonstrating how Cordova plugins work.
+Simple plugin to hold additional config that cant be placed in config.xml for local builds
 
 ## Using
 Clone the plugin
 
-    $ git clone https://github.com/don/cordova-plugin-hello.git
+    $ git clone https://github.com/nwmclaughlin/cordova-plugin-modifier.git
 
 Create a new Cordova Project
 
@@ -16,7 +14,7 @@ Create a new Cordova Project
 Install the plugin
 
     $ cd hello
-    $ cordova plugin add ../cordova-plugin-hello
+    $ cordova plugin add ../cordova-plugin-modifier
     
 
 Edit `www/js/index.js` and add the following code inside `onDeviceReady`
